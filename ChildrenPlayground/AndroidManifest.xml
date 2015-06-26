@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.childrenplayground"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/child_park_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.childrenplayground.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="Art"></activity>
+        <activity android:name="Animal"></activity>
+        <activity android:name="Art_Help"></activity>
+        <activity android:name="WaWa"></activity>
+        <activity android:name="English"></activity>
+        <activity android:name="Jimu"></activity>
+        <activity android:name="Sport"></activity>
+        </application>
+
+</manifest>

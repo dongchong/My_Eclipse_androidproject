@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 这个设置的是从上往下进入，android:duration为动画持续的时间，默认以毫秒为单位 -->
+    <translate android:duration="500"
+		android:fromYDelta="-100%"
+		android:toYDelta="0" />
+
+</set>

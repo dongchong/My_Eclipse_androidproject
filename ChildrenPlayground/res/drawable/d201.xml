@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 注释：state_pressed意为按下状态 ，state_focused:获得焦点时状态（普通状态）-->
+    <item android:state_pressed="true" android:drawable="@drawable/d2_02" />
+    <item android:state_focused="false" android:drawable="@drawable/d2_01" />
+</selector>

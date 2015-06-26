@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<ViewFlipper
+	    android:id="@+id/animal_show"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<RelativeLayout android:orientation="vertical" 
+		    android:id="@+id/animal_caodi_1"
+		    android:background="@drawable/animal_caodi_01" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent">
+
+		    <ImageView
+		        android:id="@+id/shizi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginBottom="71dp"
+		        android:layout_marginRight="18dp"
+		        android:src="@drawable/zoo_animalpic_shizi" />
+
+		    <ImageView
+		        android:id="@+id/laohu"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignRight="@+id/shizi"
+		        android:layout_centerVertical="true"
+		        android:layout_marginRight="45dp"
+		        android:src="@drawable/zoo_animalpic_laohu" />
+
+		    <ImageView
+		        android:id="@+id/daxiang"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/laohu"
+		        android:src="@drawable/zoo_animalpic_daxiang" />
+
+	    </RelativeLayout>
+	    <RelativeLayout android:orientation="vertical" 
+		    android:background="@drawable/animal_caodi_02" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent">
+
+	        <ImageView
+	            android:id="@+id/xiongmao"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignTop="@+id/ma"
+	            android:layout_marginTop="47dp"
+	            android:layout_toLeftOf="@+id/houzi"
+	            android:src="@drawable/zoo_animalpic_xiongmao" />
+
+	        <ImageView
+	            android:id="@+id/ma"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginBottom="149dp"
+	            android:src="@drawable/zoo_animalpic_ma" />
+
+	        <ImageView
+	            android:id="@+id/houzi"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toLeftOf="@+id/ma"
+	            android:src="@drawable/zoo_animalpic_houzi" />
+		    
+	    </RelativeLayout>
+	    <RelativeLayout android:orientation="vertical" 
+		    android:background="@drawable/animal_caodi_03" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent">
+
+	        <ImageView
+	            android:id="@+id/yang"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="27dp"
+	            android:src="@drawable/zoo_animalpic_yang" />
+
+	        <ImageView
+	            android:id="@+id/niu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_below="@+id/yang"
+	            android:layout_marginRight="20dp"
+	            android:src="@drawable/zoo_animalpic_niu" />
+
+	        <ImageView
+	            android:id="@+id/wuya"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:src="@drawable/zoo_animalpic_wuya" />
+
+	        <ImageView
+	            android:id="@+id/ji"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/yang"
+	            android:layout_alignTop="@+id/niu"
+	            android:layout_marginTop="40dp"
+	            android:src="@drawable/zoo_animalpic_ji" />
+		    
+	    </RelativeLayout>
+	    <RelativeLayout android:orientation="vertical" 
+		    android:background="@drawable/animal_caodi_04" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent">
+
+	        <ImageView
+	            android:id="@+id/gou"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginBottom="80dp"
+	            android:layout_marginLeft="25dp"
+	            android:src="@drawable/zoo_animalpic_gou" />
+
+	        <ImageView
+	            android:id="@+id/laoshu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignTop="@+id/gou"
+	            android:layout_marginRight="38dp"
+	            android:src="@drawable/zoo_animalpic_laoshu" />
+
+	        <ImageView
+	            android:id="@+id/mao"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/gou"
+	            android:layout_marginBottom="17dp"
+	            android:layout_marginRight="26dp"
+	            android:layout_toLeftOf="@+id/laoshu"
+	            android:src="@drawable/zoo_animalpic_mao" />
+		    
+	    </RelativeLayout>
+	</ViewFlipper>
+</RelativeLayout>
