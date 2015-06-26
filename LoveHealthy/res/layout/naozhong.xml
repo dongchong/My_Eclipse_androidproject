@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/naozhong1" />
+
+	<TextView
+	    android:id="@+id/naozhong1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imageView1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="20dp"
+	    android:textSize="20sp"
+	    android:text="亲，请设置你的健康小闹钟哦！" />
+
+	<ImageView
+	    android:id="@+id/naozhong2"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    android:layout_below="@+id/naozhong1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="49dp"
+	    android:src="@drawable/naozhong2" />
+
+	<Button
+	    android:id="@+id/quxiao"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/naozhong2"
+	    android:layout_alignRight="@+id/naozhong1"
+	    android:text="取消闹钟" />
+
+</RelativeLayout>

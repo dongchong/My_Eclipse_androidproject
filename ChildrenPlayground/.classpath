@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="lib" path="D:/android/Android_ADT/ChildrenPlayground/libs/jbox2d-2.0.1-library-only.jar"/>
+	<classpathentry kind="lib" path="D:/android/Android_ADT/ChildrenPlayground/libs/android-support-v4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

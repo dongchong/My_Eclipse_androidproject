@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/before_background" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shoushen" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_toLeftOf="@+id/imageView7"
+        android:src="@drawable/infoimage1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/imageView7"
+        android:src="@drawable/infoimage1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ProgressBar01"
+        android:layout_toLeftOf="@+id/imageView7"
+        android:src="@drawable/infoimage1" />
+
+    <TextView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="39dp"
+        android:text="@string/xianzaitizhong"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView7"
+        android:src="@drawable/infoimage2" />
+
+    <TextView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_below="@+id/imageView8"
+        android:layout_toLeftOf="@+id/imageView7"
+        android:text="@string/mubiaotizhong"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView8"
+        android:layout_toRightOf="@+id/imageView7"
+        android:src="@drawable/infoimage2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="70sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/imageView11"
+        android:layout_toLeftOf="@+id/imageView12"
+        android:singleLine="true"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="@string/kg"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="@string/kg"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="70sp"
+        android:layout_height="30sp"
+        android:layout_alignLeft="@+id/next"
+        android:layout_below="@+id/imageView4"
+        android:singleLine="true"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignLeft="@+id/imageView11"
+        android:text="@string/qixian"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/before"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ProgressBar01"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/before" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/next" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar01"
+        style="@style/animStyle"
+        android:layout_width="70px"
+        android:layout_height="100px"
+        android:layout_alignRight="@+id/before"
+        android:layout_below="@+id/next" />
+
+</RelativeLayout>

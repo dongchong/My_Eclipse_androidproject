@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱之健康</string>
+    <string name="action_settings">Settings</string>
+    <string name="ic_1">BMI</string>
+    <string name="ic_2">瘦身计划</string>
+    <string name="ic_3">吃得健康</string>
+    <string name="ic_4">健康小闹钟</string>
+    <string name="ic_5">健康助手</string>
+    <string name="ic_6">幸福生活</string>
+    <string name="ic_7">操作记录</string>
+    <string name="ic_8">帮助</string>
+    <string name="ic_9">关于</string>
+	<string name="height">身高</string>
+	<string name="weight">体重</string>
+	<string name="bmi">计算BMI</string>
+	<string name="baocun">保存</string>
+	<string name="qingkong">清空</string>
+	<string name="bmi_result">你的BMI是：</string>
+	<string name="advice_tooweight">您的体重已严重超标，请注意身体！！！</string>
+	<string name="advice_weight">您的身体变胖，请减肥！！</string>
+	<string name="advice_average">您的身体保持的很好！继续保持！</string>
+	<string name="advice_thin">您太瘦了，多吃一点更健康！！</string>
+	<string name="aheight">height</string>
+	<string name="aweight">weight(lbs)</string>
+	<string name="abmi">aBMI->info</string>
+	<string name="yingchi">feet</string>
+	<string name="yingcun">inch</string>
+	<string name="abmi_result">Your BMI is:</string>
+	<string name="suggest_tooweight">You are very fat,please immediately lose weight!!!</string>
+	<string name="suggest_weight">You are fat,please lose weight!!</string>
+	<string name="suggest_average">Your body is good,please keep up!</string>
+	<string name="suggest_thin">You are too thin,please eat a lot!!</string>
+	<string name="forour">关于我们</string>
+	<string name="mubiaosheding">设定目标体重</string>
+	<string name="zhengchang">（正常BMI为：18.5~22.9）</string>
+	<string name="qixian">预计时间：</string>
+	<string name="next">下一步</string>
+	<string name="fanhui">返回</string>
+	<string name="xianzaitizhong">请输入您现在的体重：</string>
+	<string name="mubiaotizhong">请输入您的目标体重：</string>
+	<string name="kg">kg</string>
+	<string name="queren">确认请点下一步！</string>
+	<string name="haha">下面是专门为你准备的减肥攻略：</string>
+	<string name="xianzai">   您现在的体重是：</string>
+	<string name="mubiao">   您的目标体重是：</string>
+	<string name="yuefen">   您准备减肥的时间是：</string>
+	<string name="bmiinfo">身体质量指数（BMI）</string>
+	<string name="data_label">选择预计时间</string>
+	<string name="fenxiang">爱分享</string>
+	<string name="book">爱图书</string>
+	
+</resources>

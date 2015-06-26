@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androiddemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androiddemo.Donghua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="BMI"></activity>
+        <activity android:name="Shoushenjihua"></activity>
+        <activity android:name="EatGood"></activity>
+        <activity android:name="Naozhong"></activity>
+        <activity android:name="HealthyHelper"></activity>
+        <activity android:name="GoodLife"></activity>
+        <activity android:name="Caozuojilu"></activity>
+        <activity android:name="Help"></activity>
+        <activity android:name="ForOur"></activity>
+        <activity android:name="Report"></activity>
+        <activity android:name="Jianfeifa"></activity>
+        <activity android:name="Shoushengonglue"></activity>
+        <activity android:name="Tixing"></activity>
+        <activity android:name="LoveBook"></activity>
+        <activity android:name="HelpInfo"></activity>
+        <activity android:name="Zhexiantu"></activity>
+        <activity android:name="Chunji"></activity>
+        <activity android:name="Xiaji"></activity>
+        <activity android:name="HealthHelper2"></activity>
+        <activity android:name="LoveFenxiang"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|navigation|orientation">
+            <inter-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tauth"/>
+            </inter-filter>
+        </activity>
+    </application>
+
+</manifest>

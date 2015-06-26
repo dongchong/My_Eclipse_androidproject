@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date">
+        <item>一个月</item>
+        <item>两个月</item>
+        <item>三个月</item>
+        <item>四个月</item>
+        <item>五个月</item>
+        <item>六个月</item>
+        <item>七个月</item>
+        <item>八个月</item>
+        <item>九个月</item>
+        <item>十个月</item>
+        <item>十一个月</item>
+        <item>十二个月</item>
+    </string-array>
+    <string-array name="info">
+        <item>黄瓜鸡蛋法</item>
+        <item>过午不食法</item>
+        <item>不吃正餐法</item>
+        <item>苹果减肥法</item>
+        <item>荷叶减肥法</item>
+        <item>苦瓜减肥法</item>
+        <item>喝水减肥法</item>
+    </string-array>
+    <string-array name="help_info">
+        <item>BMI</item>
+        <item>瘦身计划</item>
+        <item>吃得健康</item>
+        <item>健康小闹钟</item>
+        <item>健康助手</item>
+        <item>幸福生活</item>
+    </string-array>
+</resources>
