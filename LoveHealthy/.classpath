@@ -5,7 +5,8 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/libs"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="D:/android/Android_ADT/ChildrenPlayground/libs/android-support-v4.jar"/>
-	<classpathentry kind="lib" path="D:/android/Android_ADT/ChildrenPlayground/libs/jbox2d-2.0.1-library-only.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dongdong/git/hahaahha/LoveHealthy/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dongdong/git/hahaahha/LoveHealthy/libs/graphview-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dongdong/git/hahaahha/LoveHealthy/libs/jsoup-1.7.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
